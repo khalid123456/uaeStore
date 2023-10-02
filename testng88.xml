@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="methods" thread-count="2" >
+<test name="Test">
+    <classes>
+      <class name="cases.SuccessPageKSA"/>
+      <class name="cases.KSA_Registration_Cases"/>
+      <class name="cases.Vitamins_Page_KSA"/>
+      <class name="cases.KSA_Address_Cases"/>
+      <class name="cases.MegaMenuCasesksa"/>
+      <class name="cases.Address"/>
+      <class name="cases.KSA_Product_Page_Cases"/>
+      <class name="cases.KSA_Placing_Orders"/>
+      <class name="cases.MyClass"/>
+      <class name="cases.Womens_Only_KSA"/>
+      <class name="cases.ksa_Homepage_Cases"/>
+      <class name="cases.HeaderFotterMobileNO"/>
+      <class name="cases.MaxPriceTestKSA"/>
+      <class name="cases.KSA_Store_cart_page_cases"/>
+      <class name="cases.BaseTest"/>
+      <class name="cases.KSA_Megamenu_And_subcategories_cases"/>
+      <class name="cases.KSA_Footer_Links"/>
+      <class name="cases.KSA_issue_top30"/>
+      <class name="cases.MegaMenuCases"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
